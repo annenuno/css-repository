@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'qimaky';
+    src: url('~/assets/fonts/Qimaky.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+  h1 {
+    @apply font-qimaky font-bold text-white md:text-[6.25rem] text-[3rem] leading-normal;
+}
+h2 {
+    @apply font-qimaky font-bold text-white md:text-[4.69rem] text-[2.5rem] leading-normal;
+}
+h3 {
+    @apply font-qimaky font-bold text-white md:text-[3.50rem] text-[2rem] leading-normal;
+}
+h4 {
+    @apply font-qimaky font-bold text-white md:text-[2.69rem] text-[1.7rem] leading-normal;
+}
+h5 {
+    @apply font-qimaky font-bold text-white md:text-[2rem] text-[1.44rem] leading-normal;
+}
+h6 {
+    @apply font-qimaky font-bold text-white md:text-[1.50rem] text-[1.2rem] leading-normal;
+}
